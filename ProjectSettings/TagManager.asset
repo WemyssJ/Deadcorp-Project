@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Unclimbable
+  - Water
+  - UI
+  - Ground
+  - Ghost
+  - Circle
+  - Traps
+  - Player
+  - PlayerProjectile
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: 1Sky
+    uniqueID: 1394732501
+    locked: 0
+  - name: 2Background
+    uniqueID: 3958642821
+    locked: 0
+  - name: 3Middleground
+    uniqueID: 2702257381
+    locked: 0
+  - name: PlayerLayer
+    uniqueID: 3744376959
+    locked: 0
+  - name: 4Foreground
+    uniqueID: 2799263631
+    locked: 0

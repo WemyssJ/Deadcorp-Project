@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 011c04fd4933dce438d75ca3e8083468, type: 3}
+  m_Name: MiniBossStats
+  m_EditorClassIdentifier: 
+  MaxRunSpeed: 10
+  MaxWalkSpeed: 7
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 72
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  GroundDetectionRayLength: 0.02
+  attackCooldown: 1.5
+  damageType: Normal Hit
+  damage: 1
+  AttackParticlesOffset: 0
+  AttackWarning: 0.3
+  AnimFrameDealDamage: 0.3
+  AnimFrameDealDamageTolerance: 0.1
+  DistanceToAttack: 1.5
+  ApexThreshold: 0.97
+  ApexHangTime: 0.075
+  attackRange: 1.25
+  lineOfSightRangeX: 25
+  lineOfSightRangeY: 10
+  lineOfSightColliderDist: 0
+  maxHealth: 25
+  TimeUntiDespawn: 3
+  DebugShowIsGroundedBox: 0
+  hurtSlowTimeAmount: 0.7
+  deathSlowTimeAmount: 0.5
+  smoothTime: 2
+  timeInitialVelocityDefault: 0
+  timeInitialVelocity: 0
+  HitStop: 0
+  isBoss: 0
+  BossName: 
+  DashSpeed: 37.5
+  WallLayer:
+    serializedVersion: 2
+    m_Bits: 72
